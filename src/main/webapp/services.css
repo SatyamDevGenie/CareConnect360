@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+.services .box-container-1 {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(27rem, 1fr));
+	gap: 2rem;
+}
+
+.services .box-container-1 .innerbox {
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+	border: .2rem solid #16a085;
+	padding: 2.5rem;
+}
+
+.services .box-container-1 .innerbox i {
+	color: #16a085;
+	font-size: 5rem;
+	padding-bottom: .5rem;
+}
+
+.services .box-container-1 .innerbox h3 {
+	color: #444;
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+.services .box-container-1 .innerbox p {
+	color: #777;
+	font-size: 1.4rem;
+	line-height: 2;
+}

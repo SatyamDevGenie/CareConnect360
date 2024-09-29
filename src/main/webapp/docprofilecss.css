@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+.doctors .docname {
+	text-align: center;
+	padding-bottom: 2rem;
+	text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+	text-transform: uppercase;
+	color: #444;
+	font-size: 4rem;
+	letter-spacing: .4rem;
+}
+
+.doctors .fa-edit {
+	float: right;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.doctors .fa-edit:hover {
+	transform: scale(1.5);
+}
+
+.doctors .box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+	gap: 2rem;
+}
+
+.doctors .box-container .box {
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+	border: .2rem solid #16a085;
+	padding: 2rem;
+}
+
+.doctors .box-container .box img {
+	height: 250px;
+	width: 300px;
+	object-fit: fill;
+	border: .2rem solid #16a085;
+	border-radius: .5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.doctors .box-container .box h3 {
+	color: #444;
+	font-size: 2rem;
+}
+
+.doctors .box-container .box p {
+	color: #444;
+	font-size: 1.3rem;
+	/* 	line-height: 1.3rem; */
+}
+
+.doctors .box-container .box .stars i {
+	color: orange;
+	font-size: 1.5rem;
+	margin-bottom: .8rem;
+}
+
+.doctors .box-container .box button {
+	background-color: #fff;
+	font-size: 1.5rem;
+	border: 2px solid #16a085;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.doctors .box-container .box .education li {
+	margin-left: 4rem;
+	font-size: 1.2rem;
+}
+
+.doctors .box-container .box button a {
+	text-decoration: none;
+	color: #16a085;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.doctors .box-container .box .profilephoto {
+		text-align: center;
+	}
+	.doctors .docname {
+		font-size: 2.5rem;
+	}
+	.doctors .box-container .box img {
+		height: 200px;
+		width: 80%;
+	}
+}
+
+@media screen and (max-height:450px) {
+	.doctors .box-container .box .profilephoto {
+		text-align: center;
+	}
+	.doctors .docname {
+		font-size: 2.5rem;
+	}
+	.doctors .box-container .box img {
+		height: 200px;
+		width: 80%;
+	}
+}
+
+@media screen and (min-height: 1000px) {
+	.doctors .box-container .box .profilephoto {
+		text-align: center;
+	}
+	.doctors .docname {
+		font-size: 2.5rem;
+	}
+	.doctors .box-container .box img {
+		height: 60%;
+		width: 65%;
+	}
+}

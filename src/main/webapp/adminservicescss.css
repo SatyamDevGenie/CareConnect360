@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+.services .box-container-1 {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(27rem, 1fr));
+	gap: 2rem;
+}
+
+.services .box-container-1 .innerbox {
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+	border: .2rem solid #16a085;
+	padding: 2.5rem;
+}
+
+.services .box-container-1 .innerbox i {
+	color: #16a085;
+	font-size: 5rem;
+	padding-bottom: .5rem;
+}
+
+.services .box-container-1 .innerbox h3 {
+	color: #444;
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+.services .box-container-1 .innerbox p {
+	color: #777;
+	font-size: 1.4rem;
+	line-height: 2;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+	padding: 2.5rem;
+	width: 60%;
+}
+.modal-content .heading {
+	text-align: center;
+	padding-bottom: 2rem;
+	text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+	text-transform: uppercase;
+	color: #444;
+	font-size: 2.5rem;
+	letter-spacing: .4rem;
+}
+
+.modal-content .heading span {
+	text-transform: uppercase;
+	color: #16a085;
+}
+
+.modal-content label{
+	font-size: 1.8rem;
+}
+
+.modal-content input{
+	font-size: 1.5rem;
+	padding: 10px;
+	width: 100%;
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.modal-content textArea {
+	font-size: 1.5rem;
+	padding: 10px;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100px;
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@
+-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)
+}
+
+to {
+	-webkit-transform: scale(1)
+}
+
+}
+@
+keyframes animatezoom {
+	from {transform: scale(0)
+}
+
+to {
+	transform: scale(1)
+}
+}

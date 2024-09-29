@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+.editform .box-form {
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+	border: .2rem solid #16a085;
+	padding: 2.5rem;
+}
+
+.editform .box-form #errMsg {
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.editform .box-form .basicinfo #imgPreview {
+	height: 160px;
+	width: 180px;
+	border-radius: 5px;
+}
+
+.editform .box-form .basicinfo .uploadbtn {
+	background-color: indigo;
+	color: white;
+	font-size: 1.5rem;
+	padding: 10px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.editform .box-form input, textarea {
+	font-size: 1.5rem;
+	padding: 10px;
+	width: 100%;
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin: 10px 5px 10px 0px;
+}
+
+.editform .box-form input[type=email] {
+	text-transform: lowercase;
+}
+
+.editform .box-form input[type=email]::placeholder {
+	text-transform: none;
+}
+
+.editform .box-form select {
+	font-size: 1.5rem;
+	padding: 10px;
+	width: 100%;
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin: 10px 5px 10px 0px;
+}
+
+.editform .box-form .aboutme textarea {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 15rem;
+}
+
+.editform .box-form .pricing input[type=radio] {
+	width: 20px;
+}
+
+.editform .box-form .pricing label {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.editform .box-form .btns {
+	padding: .5rem;
+	padding-left: 1rem;
+	border: .2rem solid #16a085;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);;
+	color: #16a085;
+	cursor: pointer;
+	font-size: 1.7rem;
+	background: #fff;
+}
+
+.editform .box-form .btns:hover {
+	background-color: #015a6b;
+	color: #fff;
+}

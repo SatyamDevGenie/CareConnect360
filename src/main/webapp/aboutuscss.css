@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+#about2 {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	#about {
+		display: none;
+	}
+	#about2 {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#about {
+		display: none;
+	}
+	#about2 {
+		display: block;
+	}
+}
+
+@media screen and (min-height: 1000px) {
+	#about {
+		display: none;
+	}
+	#about2 {
+		display: block;
+	}
+}

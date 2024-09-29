@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+.signup .box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+	gap: 2rem;
+}
+
+.signup .box-container .box {
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+	border: .2rem solid #16a085;
+	padding: 2.5rem;
+}
+
+.box input {
+	font-size: 1.5rem;
+	padding: 10px;
+	width: 100%;
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+.box input[type=checkbox] {
+	font-size: 2rem;
+	width: 30px;
+	cursor: pointer;
+}
+
+.box label {
+	font-size: 1.5rem;
+}
+
+.btn-2 {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: .5rem;
+	padding-left: 1rem;
+	border: .2rem solid #16a085;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);;
+	color: #16a085;
+	cursor: pointer;
+	font-size: 1.7rem;
+	background: #fff;
+}
+
+.btn-2 span {
+	padding: .7rem 1rem;
+	border-radius: .5rem;
+	background: #16a085;
+	color: #fff;
+	margin-left: .5rem;
+}
+.btn-2:hover {
+	background-color: #015a6b;
+	color: #fff;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	float: right;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+#message {
+	display: none;
+	background: white;
+	color: #000;
+	width: 300px;
+	position: relative;
+	padding-left: 10px;
+	margin-left: 200px;
+	text-align: left;
+}
+
+#message p {
+	padding: 5px;
+	margin-left: 8px;
+	font-size: 10px;
+	margin-left: 8px;
+}
+
+.valid {
+	color: green;
+}
+
+.valid:before {
+	position: relative;
+	left: -10px;
+	content: "✔";
+}
+
+.invalid {
+	color: red;
+}
+
+.invalid:before {
+	position: relative;
+	left: -10px;
+	content: "❌";
+}
+
+#errMsg {
+	color: red;
+	font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+	#message {
+		margin-left: 0px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-height: 450px) {
+}
+
+@media screen and (min-height: 1000px) {
+}
